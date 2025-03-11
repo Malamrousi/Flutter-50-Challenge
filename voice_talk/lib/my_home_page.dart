@@ -280,7 +280,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 radius: 25,
                 backgroundColor: Colors.red,
                 child: Icon(
-                  steps == 0 && !isListening ? Icons.arrow_back : Icons.close,
+                  steps == 0 && !isListening ? Icons.close : Icons.stop_circle_outlined,
                   color: Colors.white,
                 ),
               ),
