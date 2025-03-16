@@ -82,10 +82,10 @@ class _ARHomeState extends State<ARHome> {
 
   Future<void> addWebObject() async {
     var newNode = ARNode(
-      type: NodeType.webGLB, 
-      uri: "https://github.com/KhronosGroup/glTF-Sample-Models/raw/master/2.0/Fox/glTF-Binary/Fox.glb", 
+      type: NodeType.localGLTF2,
+      uri: "assets/Chicken_01.gltf",
       scale: vector.Vector3(0.2, 0.2, 0.2),
-      position: vector.Vector3(0.0, 0.0, 0.0),
+      position: vector.Vector3(2.0, 0.5, -6.0), 
       rotation: vector.Vector4(1.0, 0.0, 0.0, 0.0),
     );
 
